@@ -22,6 +22,11 @@ export default function Header() {
             setText(e.target.value);
           }}
           value={text}
+          onKeyDown={(event) => {
+            if (event.key === 'Enter') {
+              handleSetCity();
+            }
+          }}
         />
         <button type="submit" onClick={handleSetCity}>Pesquisar</button>
       </InputContainer>
