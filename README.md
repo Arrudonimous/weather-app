@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# ☀️ Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[🇧🇷 Versão em Português](#versão-em-português) | [🇺🇸 English Version](#english-version)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🇧🇷 Versão em Português
 
-### `yarn start`
+Este é o **Weather App**, um aplicativo simples de previsão do tempo que desenvolvi para praticar consumo de API externa e manipulação de dados climáticos em tempo real.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A aplicação permite que o usuário pesquise por uma cidade e visualize as condições atuais como temperatura, clima, umidade e sensação térmica.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 💡 Funcionalidades
 
-### `yarn test`
+- Busca por cidade  
+- Exibição de temperatura atual  
+- Ícones e descrição do clima (sol, chuva, etc.)  
+- Umidade e sensação térmica  
+- Interface responsiva
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🛠️ Tecnologias Utilizadas
 
-### `yarn build`
+- HTML5  
+- CSS3  
+- JavaScript  
+- OpenWeatherMap API  
+- Fetch API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🚀 Como rodar localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/Arrudonimous/weather-app.git
+```
 
-### `yarn eject`
+2. Acesse a pasta do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd weather-app
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Abra o arquivo `index.html` no navegador.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> 🔑 Importante: você precisará de uma chave da OpenWeatherMap API.  
+> Substitua `YOUR_API_KEY` no código JavaScript pela sua chave.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🇺🇸 English Version
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is **Weather App**, a simple weather forecast app I built to practice external API consumption and real-time weather data handling.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The app allows users to search for a city and display current weather conditions such as temperature, description, humidity, and feels-like temperature.
 
-### Code Splitting
+### 💡 Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Search by city  
+- Display current temperature  
+- Weather icons and description (sun, rain, etc.)  
+- Humidity and feels-like temperature  
+- Responsive interface
 
-### Analyzing the Bundle Size
+### 🛠️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- HTML5  
+- CSS3  
+- JavaScript  
+- OpenWeatherMap API  
+- Fetch API
 
-### Making a Progressive Web App
+### 🚀 How to run locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone the repository:
 
-### Advanced Configuration
+```bash
+git clone https://github.com/Arrudonimous/weather-app.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Navigate to the project folder:
 
-### Deployment
+```bash
+cd weather-app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Open the `index.html` file in your browser.
 
-### `yarn build` fails to minify
+> 🔑 Important: You’ll need an OpenWeatherMap API key.  
+> Replace `YOUR_API_KEY` in the JavaScript file with your own key.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+📌 Projeto simples e direto, ideal para praticar integração com APIs públicas.  
+📌 Simple and effective project for practicing public API integration.
+
+Obrigado por visitar! / Thanks for checking it out!
